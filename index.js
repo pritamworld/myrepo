@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 app.use(express.json());
 
-const name = 'James'
+//const name = 'James'
 
 // const person = {first: name}
 
