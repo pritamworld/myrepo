@@ -3,15 +3,19 @@ import express from "express";
 const app = express();
 app.use(express.json());
 
-const name = 'James'
+// const name = 'James'
 
-const person = {first: name}
+// const person = {first: name}
 
-console.log(person)
+// console.log(person)
 
-const sayHelloLinting = (fName) => {
-console.log(`Hello linting, ${fName}`);
-};
+// const sayHelloLinting = (fName) => {
+// console.log(`Hello linting, ${fName}`);
+// };
+
+// app.get("/", (req, res) => {
+//     res.send("Webhook server running...")
+// })
 
 app.post("/webhook", (req, res) => {
     // if (req.body.ref === "refs/heads/main") {
