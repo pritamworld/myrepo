@@ -1,0 +1,21 @@
+{
+  "name": "myrepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:test": "echo \"Error: no test specified\"",
+    "lint": "eslint --ext=.jsx,.js,.tsx,.ts",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.21.0"
+  }
+}
