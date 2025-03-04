@@ -1,0 +1,7 @@
+#!/bin/sh
+echo "Running pre-push hook: Running tests..."
+npm test
+if [ $? -ne 0 ]; then
+  echo "Tests failed! Fix them before pushing."
+  exit 1
+fi
