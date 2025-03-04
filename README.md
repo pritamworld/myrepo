@@ -58,3 +58,7 @@ git commit -m "Test commit"
 ```
 
 If linting fails, the commit will be rejected.
+
+# Slack Webhook Integration | GitHub Action
+
+[Step-by-Step Guide to Set Up Slack Notifications Using Incoming Webhook](https://hackernoon.com/how-to-send-detailed-slack-notifications-from-github-actions)
